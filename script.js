@@ -1,5 +1,5 @@
 async function injectContent(){
-
+    console.log("entrou")
     let url = location.href; 
     file = url.split('=');
     let view = (file[1] != undefined) ? file[1] : file[1] = 'home';
